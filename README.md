@@ -57,6 +57,8 @@ The key objectives of this project are:
 ### Data Modeling
 
 - Design a Star Schema model
+<img width="1400" height="800" alt="03_Star_Schema" src="https://github.com/user-attachments/assets/4d169cc9-d6a6-412c-9765-77b7b44e80d6" />
+
 - Build Fact and Dimension tables
 - Optimize analytical performance
 - Support self-service reporting
@@ -71,37 +73,12 @@ The key objectives of this project are:
 ---
 
 # Solution Architecture
-Diagrams/Retail_Fabric_Lakehouse_Architecture.png
-
 The solution follows a Medallion Architecture approach where raw retail data is ingested into the Bronze Layer, transformed within the Silver Layer, modeled into a Star Schema within the Gold Layer, and consumed through a Power BI Semantic Model and Executive Dashboard.
 
-Retail Source Files
-          │
-          ▼
-   Bronze Layer
-   (Raw Data)
-          │
-          ▼
-   Silver Layer
- (Cleansed Data)
-          │
-          ▼
-    Gold Layer
- (Business Model)
-          │
-          ▼
-  Semantic Model
-          │
-          ▼
- Power BI Reports
-          │
-          ▼
-Executive Dashboard
-```
-
----
+<img width="1400" height="600" alt="01_High_Level_Architecture" src="https://github.com/user-attachments/assets/ae882b82-fca6-4a6e-a3c6-33f2b73a64a7" />
 
 # Medallion Architecture
+<img width="1400" height="800" alt="02_Medallion_Architecture" src="https://github.com/user-attachments/assets/be207286-09e5-41b1-949a-bf0d1e558401" />
 
 ## Bronze Layer
 
