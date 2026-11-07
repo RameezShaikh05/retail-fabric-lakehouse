@@ -24,4 +24,4 @@ Retail organizations often struggle with:
 - Limited visibility into product performance
 - Manual reporting processes
 - Lack of executive-level dashboards
-The objective is to build a modern analytics platform capable of delivering trusted, business-ready insights.
+#### The objective is to build a modern analytics platform capable of delivering trusted, business-ready insights.
