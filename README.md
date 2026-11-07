@@ -71,8 +71,10 @@ The key objectives of this project are:
 ---
 
 # Solution Architecture
+Diagrams/Retail_Fabric_Lakehouse_Architecture.png
 
-```text
+The solution follows a Medallion Architecture approach where raw retail data is ingested into the Bronze Layer, transformed within the Silver Layer, modeled into a Star Schema within the Gold Layer, and consumed through a Power BI Semantic Model and Executive Dashboard.
+
 Retail Source Files
           │
           ▼
